@@ -91,6 +91,9 @@ body {
 
 .avatar-s {
     height: 64px;
+    border-radius: 50%;
+    outline: #000 solid 2px;
+    border: #fff solid 1px;
 }
 
 .user-name {
@@ -128,6 +131,7 @@ body {
     width: 720px;
     height: 400px;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .video {
