@@ -1,9 +1,7 @@
-function playVideo(){
-  let video = document.querySelector(".video");
+function playVideo(video){
   video.playbackRate = 5;
   video.play();
 }
-function stopVideo(){
-  let video = document.querySelector(".video");
+function stopVideo(video){
   video.pause();
 }
